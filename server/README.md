@@ -59,3 +59,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Setup Instructions.
+
+- Server:
+```
+composer install
+php artisan migrate:fresh
+php artisan db:seed
+php artisan serve
+```
+
+## Additional Information
+
+<Muhammad Al Farizi>
+<OCSWOM>
+This solution was submitted and prepared by stundent named above for the home assignment of the Web eng
+ineering course.
+I declare that this solution is my own work.
+I have not copied or used third party solutions.
+I have not passed my solution to my classmates, neither made it public.
+Students’ regulation of Eötvös Loránd University (ELTE Regulations Vol. II. 74/C. § ) states that as lo
+ng as a student presents another student’s work - or at least the significant part of it - as his/her o
+wn performance, it will count as a disciplinary fault. The most serious consequence of a disciplinary f
+ault can be dismissal of the student from the University.
